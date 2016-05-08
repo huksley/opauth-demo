@@ -1,9 +1,6 @@
 Opauth-Demo
 =============
-Opauth strategy for GitHub authentication.
-
-Implemented based on http://developer.github.com/v3/oauth/ using OAuth2.
-
+Opauth strategy for testing authentication.
 Opauth is a multi-provider authentication framework for PHP.
 
 Getting started
@@ -26,8 +23,9 @@ Required parameters:
 ```php
 <?php
 'Demo' => array(
-	'username' => 'SINGLE USERNAME TO AUTH WITH',
-	'password' => 'PASSWORD TO AUTH WITH'
+	'username' => 'Username to auth with',
+	'password' => 'Password to auth with',
+	'email' => 'E-mail this account gets'
 )
 ```
 

@@ -1,8 +1,8 @@
 <?php
 $__callback = false;
 if (strstr($_SERVER["PHP_SELF"], "DemoStrategy.php") == "DemoStrategy.php") {
-	require '../../Opauth.php';
-	require '../../OpauthStrategy.php';
+	require '../opauth/lib/Opauth/Opauth.php';
+	require '../opauth/lib/Opauth/OpauthStrategy.php';
 	$__callback = true;
 }
 
